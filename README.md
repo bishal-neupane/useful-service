@@ -175,11 +175,11 @@ Here are some key areas I would like to focus on for further improvements.
 Given *n* as the number of unique facts:\
 **Time:**
 
-- Average: On average, retrieval and put operations on the map is taking _O(1)_ time complexity. However, computation of the encoded short url takes\
-  _O(log(n))_ considering base26 representation. So, overall it is _O(log(n))_.
-- Worst: _O(n + log(n))_ due to collisions on the hashmap
+- Average: On average, retrieval and put operations on the map is taking `O(1)` time complexity. However, computation of the encoded short url
+  takes `O(log(n))` considering base26 representation. So, overall it is `O(log(n))`.
+- Worst: `O(n + log(n))` due to collisions on the hashmap
 
-**Space:** A Couple of maps store fact related data, so the overall space complexity is _O(n)_.
+**Space:** A Couple of maps store fact related data, so the overall space complexity is `O(n)`.
 
 ## Contributors
 
