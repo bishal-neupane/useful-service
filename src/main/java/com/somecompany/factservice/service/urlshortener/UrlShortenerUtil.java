@@ -5,7 +5,7 @@ package com.somecompany.factservice.service.urlshortener;
  */
 public class UrlShortenerUtil
 {
-	private static final String BASE26_CHARACTERS = "abcdefijhklmnopqrstuvwxyz";
+	private static final String BASE26_CHARACTERS = "abcdefghijklmnopqrstuvwxyz";
 	private static final int BASE = BASE26_CHARACTERS.length();
 
 	/**

@@ -15,7 +15,7 @@ class UrlShortenerUtilTest
 	{
 		assertThat(UrlShortenerUtil.encodeBase26(0)).isEmpty();
 		assertThat(UrlShortenerUtil.encodeBase26(1)).isEqualTo("b");
-		assertThat(UrlShortenerUtil.encodeBase26(2000)).isEqualTo("dfa");
-		assertThat(UrlShortenerUtil.encodeBase26(20678)).isEqualTo("bhcd");
+		assertThat(UrlShortenerUtil.encodeBase26(2000)).isEqualTo("cyy");
+		assertThat(UrlShortenerUtil.encodeBase26(20678)).isEqualTo("bepi");
 	}
 }
